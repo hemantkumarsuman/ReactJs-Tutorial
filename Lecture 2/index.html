@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React First Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hemant learning ReactJs</h1>
+    <div class="root"></div>
+
+
+    <!-- WE do not require CDN react links to run react -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+    <script type="module" src="App.js"></script>
+
+    
+</body>
+</html>
+
+
+<!-- NOTES:
+1)Order of script files matter->If we inject <script src="App.js"></script> before cdn react error will be thrown "React does not exist"
+2)React will be applied inside root only->Apart from root all other tags will work as it is in classic HTML works.
+3)A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from another domain. 
+-->
