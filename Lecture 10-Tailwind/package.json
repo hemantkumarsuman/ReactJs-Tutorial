@@ -1,0 +1,23 @@
+{
+  "name": "lecture-4",
+  "version": "1.0.0",
+  "description": "React project creation",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "author": "Hemant Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
+  }
+}
